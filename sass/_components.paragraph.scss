@@ -1,0 +1,13 @@
+.article__paragraph{
+	&+&{
+		margin-top:1.47058823529412em; /*25/17*/
+	}
+}
+
+.article__cite{
+	font-size: 1.29411764705882em; /*22/17*/
+	margin:2.27272727272727em auto; /*50/22*/
+	max-width:550px;
+	font-style: italic;
+	color:$color-cite;
+}

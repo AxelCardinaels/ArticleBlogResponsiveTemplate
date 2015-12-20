@@ -1,0 +1,20 @@
+.article__right-part{
+	width: 47.02380952381%; /*790/1680*/
+	height: 100%;
+	float:right;
+	padding:4.70588235294118em 4.11764705882353em; /*80/17 70/17*/
+}
+
+
+
+@media(min-width:1px) and (max-width:900px){
+
+.article__right-part{
+	width: 90%; /*790/1680*/
+	height: auto;
+	float:none;
+	padding:2em 0em;
+	margin:0px auto;
+}
+
+}

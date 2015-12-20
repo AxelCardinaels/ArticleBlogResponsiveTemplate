@@ -1,0 +1,30 @@
+.article__illustration{
+	width: 52.97619047619%; /*890/1680*/
+	height: 100%;
+	overflow: hidden;
+	position: fixed;
+}
+
+.illustration__img{
+	height: 100%;
+}
+
+@media(min-width:1px) and (max-width:900px){
+
+.article__illustration{
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+	position: static;
+
+    background: url("../img/illustration.jpg") no-repeat center top;
+    background-size: cover;
+    -webkit-background-size:cover;
+}
+
+.illustration__img{
+	display: none;
+}
+
+
+}

@@ -1,0 +1,14 @@
+a {
+    text-decoration: none;
+    position: relative;
+    color:$color-link;
+    font-weight: 400;
+
+    @include transition_css(all,0.3s,ease,0s);
+
+	&:hover{
+		color: darken($color-link,80%);
+	}
+
+}
+
